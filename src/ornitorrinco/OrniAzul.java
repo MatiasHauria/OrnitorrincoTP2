@@ -34,7 +34,7 @@ public class OrniAzul extends Castor implements Pata{
         System.out.println("Do-Re-Mi");
         Scanner enter = new Scanner(System.in);
         System.out.println("Presione ENTER para seguir tocando las siguientes notas");
-        enter.hasNext();
+        enter.nextLine();
         System.out.println("Fa-Sol-La-Si");
     }
     
