@@ -49,6 +49,6 @@ public class Main {
     while (it.hasNext()){
         OrniAzul o = it.next();
         System.out.println("OrniAzul con propulsion: " + o.getPropulsion());
-    }
-    }
+         }
+      }
 }
