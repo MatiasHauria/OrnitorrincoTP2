@@ -42,6 +42,7 @@ public class Main {
     if (orniBlui instanceof OrniAzul) nadadores.add(orniBlui);
     
     Collections.sort(nadadores, Comparator.comparingDouble(OrniAzul::getPropulsion));
+    //nadadores.sort(Comparator.comparing(OrniAzul::getVelocidad));
     
     System.out.println("Nadadores ordenados por propulsion:");
     Iterator<OrniAzul> it = nadadores.iterator();
