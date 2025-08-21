@@ -22,6 +22,7 @@ public class OrniAzul extends Castor implements Pata{
     @Override
     public void nadar(){
         Scanner scan = new Scanner(System.in);
+        System.out.println("Ingrese propulsion: de 5 a 10km/s");
         propulsion = scan.nextInt();
         int velocidadfinal = super.velocidad;
         velocidadfinal += propulsion;
