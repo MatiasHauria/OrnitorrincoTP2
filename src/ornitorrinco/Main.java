@@ -7,8 +7,8 @@ public class Main {
     public static void main(String[] args) {
     
     OrniVerde orniVerde = new OrniVerde (3, 10, "Zagardirianetto");
-    OrniAzul orniBlue = new OrniAzul(5.0, 2, 8);
-    OrniAzul orniBlui = new OrniAzul(4.0, 1, 6);
+    OrniAzul orniBlue = new OrniAzul(5.0, 2, 8.0);
+    OrniAzul orniBlui = new OrniAzul(4.0, 1, 6.0);
     
     System.out.println("Habilidades OrniVerde:");
     orniVerde.nadar();

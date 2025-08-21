@@ -2,9 +2,9 @@ package ornitorrinco;
 
 public class Castor {
  protected int cola;
- protected int velocidad;
+ protected double velocidad;
 
-    public Castor(int cola, int velocidad) {
+    public Castor(int cola, double velocidad) {
         this.cola = cola;
         this.velocidad = velocidad;
     }
@@ -17,11 +17,11 @@ public class Castor {
         this.cola = cola;
     }
 
-    public int getVelocidad() {
+    public double getVelocidad() {
         return velocidad;
     }
 
-    public void setVelocidad(int velocidad) {
+    public void setVelocidad(double velocidad) {
         this.velocidad = velocidad;
     }
  

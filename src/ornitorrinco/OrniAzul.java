@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class OrniAzul extends Castor implements Pata{
     private double propulsion;
     
-    public OrniAzul(double propulsion, int cola, int velocidad){
+    public OrniAzul(double propulsion, int cola, double velocidad){
     super(cola, velocidad);
     this.propulsion = propulsion;
     }
@@ -24,9 +24,8 @@ public class OrniAzul extends Castor implements Pata{
         Scanner scan = new Scanner(System.in);
         System.out.println("Ingrese propulsion: de 5 a 10km/s");
         propulsion = scan.nextInt();
-        int velocidadfinal = super.velocidad;
-        velocidadfinal += propulsion;
-        System.out.println("El ornitorrinco azul nada a: " + velocidadfinal +" km/s con su propulsion");
+        velocidad += propulsion;
+        System.out.println("El ornitorrinco azul nada a: " + velocidad +" km/s con su propulsion");
     }
 
     @Override

@@ -6,7 +6,7 @@ public class OrniVerde extends Castor implements Pata {
 
     private String nombre;
 
-    public OrniVerde(int cola, int velocidad, String nombre) {
+    public OrniVerde(int cola, double velocidad, String nombre) {
         super(cola, velocidad);
         this.nombre = "Blue";
     }
