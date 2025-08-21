@@ -31,7 +31,6 @@ public class Main {
         hermanos[0] = orniBlue;
         hermanos[1] = orniVerde;
         hermanos[2] = orniBlui;
-        hermanos[3] = orniVerde;
     } catch(ArrayIndexOutOfBoundsException e){
         System.out.println("Error: arreglo fuera de rango");
     } finally{
